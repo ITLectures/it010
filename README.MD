@@ -3,10 +3,10 @@
 ## Nội dung môn học
 ***
 ### [Tuần 1] Chương 1. Tìm hiểu tổng quan
-- **0.0** Giới thiệu môn học
-- **1.1** Lịch sử phát triển máy tính
-- **1.2** Phân loại máy tính
-- **1.3** Các thành phần cơ bản của máy tính
+- **0.0** [Giới thiệu môn học](./L1_s1_intro_slides.md)
+- **1.1** [Lịch sử phát triển máy tính](./L1_s2_history_of_computer.md)
+- **1.2** [Phân loại máy tính](./L1_s3_classification_of_computer.md)
+- **1.3** [Các thành phần cơ bản của máy tính](./L1_s4_computer_components) 
 ***
 ### [Tuần 2] Chương 2. Hệ thống số
 - **2.1** Chuyển đổi giữa các hệ thống số
