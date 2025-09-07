@@ -33,9 +33,11 @@ style: |
 ---
 <!-- _class: lead -->
 <!-- paginate: false -->
-<div style="text-align:center;">
 
-## ĐẠI HỌC QUỐC GIA TP.HCM
+[//]: # (<div style="text-align:center;align-items: center">)
+<div align="center">
+
+## ĐẠI HỌC QUỐC GIA TP.HCM 
 ### TRƯỜNG ĐH CÔNG NGHỆ THÔNG TIN
 #### KHOA KỸ THUẬT MÁY TÍNH
 
