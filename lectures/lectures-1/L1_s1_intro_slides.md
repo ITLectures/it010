@@ -1,12 +1,7 @@
 ---
 marp: true
 footer: ""
----
-<!-- _class: lead -->
-<!-- paginate: false -->
-
-<style>
-    /* Cover slide (lead): centers content */
+style: |    
     section.lead {
         display: flex;
         flex-direction: column;
@@ -15,8 +10,6 @@ footer: ""
         text-align: center;
         padding: 0 60px;
     }
-    
-    /* Regular slides: aligns content to top-left */
     section:not(.lead) {
         display: flex;
         flex-direction: column;
@@ -31,15 +24,15 @@ footer: ""
         position: absolute;
         top: 30px;
         left: 0;
-        right: 0;
-        padding: 0 50px;
+        right: 0;        
         border-bottom: 1px solid #ccc;
         border-top: 1px solid #ccc;
-        padding-bottom: 10px;
+        padding: 0 50px 10px;
         margin: 0;
     }
-</style>
-
+---
+<!-- _class: lead -->
+<!-- paginate: false -->
 <div style="text-align:center;">
 
 ## ĐẠI HỌC QUỐC GIA TP.HCM
