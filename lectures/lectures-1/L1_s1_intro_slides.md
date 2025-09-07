@@ -1,6 +1,6 @@
 ---
 marp: true
-footer:""
+footer: ""
 ---
 <!-- _class: lead -->
 <!-- paginate: false -->
