@@ -71,4 +71,80 @@
 
 ## 3. Tính toán trên hệ cơ số 2
 - Quy tắc cộng/trừ giống hệ thập phân.  
+- Ví dụ:
+
+
+---
+
+## 4. Phương pháp biểu diễn bù 2
+- Dùng để biểu diễn số có dấu.  
+- **Ý tưởng:** bit dấu có trọng số âm.  
+- Ưu điểm:  
+- Chỉ có 1 số 0 duy nhất.  
+- Tính toán trực tiếp trên bit.  
+
+🔹 Ví dụ (8 bit):  
+- `-23` = `11101001` (bù 2)  
+
+---
+
+## 5. BCD (Binary Coded Decimal)
+- Dùng **4 bit** để biểu diễn 1 chữ số thập phân.  
+- Bảng mã:  
+
+| Thập phân | BCD  | Thập phân | BCD  |
+|-----------|------|-----------|------|
+| 0         | 0000 | 5         | 0101 |
+| 1         | 0001 | 6         | 0110 |
+| 2         | 0010 | 7         | 0111 |
+| 3         | 0011 | 8         | 1000 |
+| 4         | 0100 | 9         | 1001 |
+
 - Ví dụ:  
+- 25 (thập phân) = `0010 0101` (BCD)  
+
+---
+
+## 6. Floating Point (IEEE 754)
+
+### 6.1 Công thức
+\[
+B = (-1)^S × (1.F) × 2^{(E - bias)}
+\]
+
+- **S**: bit dấu  
+- **E**: số mũ (biased exponent)  
+- **F**: phần trị số (fraction/mantissa)  
+
+### 6.2 Chuẩn hóa
+- Chỉ giữ 1 chữ số khác 0 trước dấu chấm.  
+- Ví dụ:  
+\[
+5.25 = 101.01_2 = 1.0101 × 2^2
+\]
+
+### 6.3 Định dạng
+- **32 bit (single precision):**  
+- S: 1 bit  
+- E: 8 bit (bias = 127)  
+- F: 23 bit  
+- **64 bit (double precision):**  
+- S: 1 bit  
+- E: 11 bit (bias = 1023)  
+- F: 52 bit  
+
+### 6.4 Trường hợp đặc biệt
+- `E=255, F=0` → ∞  
+- `E=255, F≠0` → NaN  
+- `E=0, F≠0` → chưa chuẩn hóa  
+
+---
+
+## 7. ASCII
+- Chuẩn mã hóa ký tự 7-bit.  
+- Ví dụ:  
+- `"LOVE"` = `1001100100111110101101000101`  
+
+---
+
+## 8. Câu hỏi & Bài tập
