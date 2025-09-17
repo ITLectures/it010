@@ -36,7 +36,7 @@ Biểu diễn các số sau bằng **BCD (Binary Coded Decimal)**:
 
 ### Bài 5. Tổng hợp nhiều bước
 Thực hiện chuỗi chuyển đổi sau:  
-1. Bắt đầu với số thập phân **245**.  
+1. Bắt đầu với số thập phân **245**.
 2. Biểu diễn dưới dạng **nhị phân**.  
 3. Biểu diễn dưới dạng **hexadecimal**.  
 4. Biểu diễn dưới dạng **BCD**.  
